@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #778081;
+    margin: 2rem 10rem;
+    color: rgb(0, 0, 0);
+    line-height: 20px;
+  }
+nav {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #666;
+}
+
+nav a {
+    padding: 0 20px;
+    border-right: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:last-child {
+    border-right: none;
+}
+
+header {
+    width: 100%;
+    height: 210px;
+    background: url(111.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 80px;
+    padding-top: 40px;
+    background-color: #222;
+
+}
+  
+  .div1 {
+    padding: 10px 170px;
+  }
+  
+  .hh1 {
+    font-size: 70px;
+  }
+  
+  .hh3 {
+    font-size: 50px;
+  }
+  
+  .navBar {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    position: relative;
+    background-color: #292a2b;
+  }
+  
+  ul li {
+    margin: 25px 3rem;
+  }
+  
+  .navBar .borderAfter::after {
+    content: "";
+    background-color: rgb(255, 255, 255);
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 5px;
+  }
+  
+  .div2 ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .div2 li {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  aside {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .div2 {
+    width: 66%;
+    margin-right: 3rem;
+  }
+  
+  .div3 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .div4 {
+    margin-right: 120px;
+  }
+  
+  .div4::after {
+    content: "";
+    background-color: rgb(255, 255, 255);
+    width: 5px;
+    height: 21rem;
+    position: absolute;
+    left: 65rem;
+    top: 30rem;
+  }
+  
+  .butonn {
+    padding: 15px 30px;
+    border: none;
+  }
+  
+  .div5 {
+    text-align: center;
+  }
+  
+  .form1 {
+    margin: 25px;
+  }
+  
+  label {
+    margin-right: 30px;
+  }
+  
+  .input1 {
+    border: none;
+    border-radius: 5px;
+    margin: 15px 0px;
+    padding: 15px;
+    width: 25%;
+  }
+  
+  .input2 {
+    margin: 25px;
+  }
+  
+  .l1 {
+    padding-right: 20px !important;
+  }
+  
